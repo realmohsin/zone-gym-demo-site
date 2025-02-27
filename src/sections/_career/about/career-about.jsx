@@ -87,7 +87,7 @@ function Section({ sx, ...other }) {
       sx={[
         (theme) => ({
           ...theme.mixins.bgGradient({
-            images: [`url(${CONFIG.assetsDir}/assets/images/career/about-team.jpg)`],
+            images: [`url(${CONFIG.assetsDir}/assets/img/gym-numbers-bg.jpg)`],
           }),
           borderRadius: 2,
           overflow: 'hidden',

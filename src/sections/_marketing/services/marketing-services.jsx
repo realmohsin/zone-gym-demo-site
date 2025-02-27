@@ -17,7 +17,7 @@ export function MarketingServices({ sx, ...other }) {
     <Box
       component="img"
       alt="Services"
-      src={`${CONFIG.assetsDir}/assets/illustrations/about.jpg`}
+      src={`${CONFIG.assetsDir}/assets/img/about-gym.jpg`}
       sx={{ width: 480 }}
     />
   );

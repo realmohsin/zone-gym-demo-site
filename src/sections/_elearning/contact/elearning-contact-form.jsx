@@ -57,7 +57,7 @@ export function ElearningContactForm({ sx, ...other }) {
     <Box
       component="img"
       alt="contact"
-      src={`${CONFIG.assetsDir}/assets/illustrations/contact-gym-form-2.png`}
+      src={`${CONFIG.assetsDir}/assets/img/gym-contact-form.png`}
       // sx={{ width: 260 }}
     />
   );

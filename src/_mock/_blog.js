@@ -67,7 +67,7 @@ export const _travelPosts = Array.from({ length: 12 }, (_, index) => ({
   ...base(index),
   content: content('travel'),
   coverUrl: _mock.image.travel(index),
-  heroUrl: `${CONFIG.assetsDir}/assets/images/travel/travel-large-1.webp`,
+  heroUrl: `${CONFIG.assetsDir}/assets/img/gym-sub-page-hero.jpg`,
 }));
 
 export const _careerPosts = Array.from({ length: 12 }, (_, index) => ({

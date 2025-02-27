@@ -67,9 +67,9 @@ export const _mock = {
   },
   // Media
   image: {
-    cover: (index) => `${CONFIG.assetsDir}/assets/images/cover/gallery-${index + 1}.webp`,
+    cover: (index) => `${CONFIG.assetsDir}/assets/img/gym-gallery-${index + 1}.jpg`,
     course: (index) => `${CONFIG.assetsDir}/assets/images/course/course-${index + 1}.webp`,
-    avatar: (index) => `${CONFIG.assetsDir}/assets/images/avatar/avatar-${index + 1}.jpg`,
+    avatar: (index) => `${CONFIG.assetsDir}/assets/img/gym-testimonial-${index + 1}.jpg`,
     travel: (index) => `${CONFIG.assetsDir}/assets/images/travel/travel-${index + 1}.webp`,
     career: (index) => `${CONFIG.assetsDir}/assets/images/career/career-${index + 1}.webp`,
     company: (index) => `${CONFIG.assetsDir}/assets/images/company/company-${index + 1}.webp`,

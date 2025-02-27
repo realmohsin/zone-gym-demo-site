@@ -17,7 +17,7 @@ export function CareerNewsletter({ sx, ...other }) {
           ...theme.mixins.bgGradient({
             images: [
               `radial-gradient(50% 160% at 50% 50%, ${varAlpha(theme.vars.palette.common.blackChannel, 0.4)}, ${theme.vars.palette.common.black})`,
-              `url(${CONFIG.assetsDir}/assets/images/career/newsletter.jpg)`,
+              `url(${CONFIG.assetsDir}/assets/img/gym-inspire-bg.jpg)`,
             ],
           }),
           py: 15,

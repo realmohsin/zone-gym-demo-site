@@ -114,7 +114,7 @@ export function TravelLandingHero({ tours, sx, ...other }) {
         <Box
           component="img"
           alt="Gym"
-          src="/assets/images/travel/travel-large-1.webp"
+          src="/assets/img/hero-gym.jpg"
           sx={{
             top: 0,
             left: 0,

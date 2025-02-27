@@ -6,10 +6,8 @@ import Container from '@mui/material/Container';
 import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid2';
 import IconButton from '@mui/material/IconButton';
-import InputAdornment from '@mui/material/InputAdornment';
 import Link from '@mui/material/Link';
 import { styled } from '@mui/material/styles';
-import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 
 import { RouterLink } from 'src/routes/components';
@@ -35,55 +33,6 @@ export function Footer({ layoutQuery = 'md', sx, ...other }) {
         Come visit Iron Fitness Gym and find out why everybody says we are the best gym in the
         Gulshan / Banani area.
       </Typography>
-    </>
-  );
-
-  const renderCommunity = () => (
-    <>
-      <Typography variant="h6">Community</Typography>
-      <Link variant="body2" color="inherit">
-        Documentation
-      </Link>
-      <Link variant="body2" color="inherit">
-        Changelog
-      </Link>
-      <Link variant="body2" color="inherit">
-        Contributing
-      </Link>
-    </>
-  );
-
-  const renderSubscribe = () => (
-    <>
-      <div>
-        <Typography variant="h6" sx={{ mb: 1 }}>
-          Let’s stay in touch
-        </Typography>
-        <Typography
-          variant="caption"
-          sx={{ maxWidth: 360, display: 'block', color: 'text.secondary' }}
-        >
-          Ubscribe to our newsletter to receive latest articles to your inbox weekly.
-        </Typography>
-      </div>
-
-      <TextField
-        fullWidth
-        hiddenLabel
-        placeholder="Email address"
-        sx={{ maxWidth: 420 }}
-        slotProps={{
-          input: {
-            endAdornment: (
-              <InputAdornment position="end">
-                <Button variant="contained" color="inherit" size="large" sx={{ mr: -1.25 }}>
-                  Subscribe
-                </Button>
-              </InputAdornment>
-            ),
-          },
-        }}
-      />
     </>
   );
 
@@ -115,15 +64,6 @@ export function Footer({ layoutQuery = 'md', sx, ...other }) {
             <LinkedinIcon />
           </IconButton>
         </Link>
-
-        {/* {_socials.map((social) => (
-          <IconButton key={social.label}>
-            {social.value === 'twitter' && <TwitterIcon />}
-            {social.value === 'facebook' && <FacebookIcon />}
-            {social.value === 'instagram' && <InstagramIcon />}
-            {social.value === 'linkedin' && <LinkedinIcon />}
-          </IconButton>
-        ))} */}
       </Box>
     </>
   );
@@ -276,7 +216,7 @@ export function Footer({ layoutQuery = 'md', sx, ...other }) {
         // justifyContent={{ md: 'space-between' }}
       >
         <Grid
-          size={{ xs: 12, md: 6, lg: 4 }}
+          size={{ xs: 12, md: 4, lg: 4 }}
           sx={{
             display: 'flex',
             flexDirection: 'column',
@@ -299,7 +239,7 @@ export function Footer({ layoutQuery = 'md', sx, ...other }) {
           {/* <Box sx={[(theme) => ({ ...blockStyles(theme, layoutQuery) })]}>{renderApps()}</Box> */}
         </Grid>
 
-        <Grid size={{ xs: 12, md: 6, lg: 4 }} sx={{ mb: { xs: 3, sm: 0 } }}>
+        <Grid size={{ xs: 12, md: 4, lg: 4 }} sx={{ mb: { xs: 3, sm: 0 } }}>
           {renderMiddle()}{' '}
         </Grid>
 
@@ -307,7 +247,7 @@ export function Footer({ layoutQuery = 'md', sx, ...other }) {
           {renderInfo()}
         </Box> */}
 
-        <Grid component="nav" size={{ xs: 12, md: 6, lg: 4 }}>
+        <Grid component="nav" size={{ xs: 12, md: 4, lg: 4 }}>
           {renderList()}
         </Grid>
       </Grid>
@@ -340,18 +280,6 @@ export function Footer({ layoutQuery = 'md', sx, ...other }) {
           justifyContent: 'center',
         }}
       >
-        {/* <Link variant="caption" color="inherit">
-          Help center
-        </Link> */}
-        {/* <Box
-          sx={{
-            width: 3,
-            height: 3,
-            opacity: 0.4,
-            borderRadius: '50%',
-            bgcolor: 'currentColor',
-          }}
-        /> */}
         <Typography variant="caption" color="inherit">
           Website by&nbsp;
           <Link

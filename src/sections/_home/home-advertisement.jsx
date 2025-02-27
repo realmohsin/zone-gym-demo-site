@@ -25,7 +25,7 @@ export function HomeAdvertisement({ sx, ...other }) {
           ...theme.mixins.bgGradient({
             images: [
               `linear-gradient(to bottom, ${varAlpha(theme.vars.palette.common.blackChannel, 0.72)}, ${varAlpha(theme.vars.palette.common.blackChannel, 0.72)})`,
-              `url(${CONFIG.assetsDir}/assets/images/home/final.jpg)`,
+              `url(${CONFIG.assetsDir}/assets/img/gym-last-call-bg.jpg)`,
             ],
           }),
           display: 'flex',
